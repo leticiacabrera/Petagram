@@ -4,14 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
+    <TextView
+        android:id="@+id/textViewTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/logo"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="112dp" />
+        android:text="@string/text_title"
+        android:textSize="?attr/dialogPreferredPadding"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_name"
+        android:theme="@style/MyRaisedButton"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/buttonFloating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_star"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintDown_toDownOf="parent"
+         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

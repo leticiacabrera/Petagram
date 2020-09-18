@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Petagram</string>
+    <string name="button_name">Click</string>
+    <string name="text_title">Hello World!!!</string>
 </resources>
