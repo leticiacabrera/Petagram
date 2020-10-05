@@ -11,4 +11,6 @@
         <item>Mars</item>
         <item>Jupiter</item>
     </string-array>
+    <string name="card_title">Android 11</string>
+    <string name="card_description">Esta es la versión última de Android</string>
 </resources>

@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="card_size">200dp</dimen>
+    <dimen name="card_title_size">20dp</dimen>
+    <dimen name="elevation_actionbar">4dp</dimen>
 </resources>

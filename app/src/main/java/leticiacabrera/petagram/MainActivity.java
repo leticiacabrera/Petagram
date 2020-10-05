@@ -1,6 +1,7 @@
 package leticiacabrera.petagram;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import android.os.Bundle;
@@ -24,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         agregarFAB();
+
+        Toolbar myActionBar = (Toolbar) findViewById(R.id.myActionBar);
+        setSupportActionBar(myActionBar);
 
         srlMyIndicatorRefresh = (SwipeRefreshLayout) findViewById(R.id.srlMyIndicatorRefresh);
         lvMyList = (ListView) findViewById(R.id.lvMyList);
